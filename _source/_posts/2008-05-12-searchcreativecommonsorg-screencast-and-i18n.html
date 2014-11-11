@@ -1,0 +1,34 @@
+---
+layout: post
+title: search.creativecommons.org screencast and i18n
+date: 2008-05-12 14:00:28.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '15'
+author:
+  login: mike
+  email: ml@creativecommons.org
+  display_name: Mike Linksvayer
+  first_name: Mike
+  last_name: Linksvayer
+---
+<p>We've rolled out a few small changes to <a href="http://search.creativecommons.org">search.creativecommons.org</a>:</p>
+<ul>
+<li>The part of the interface we control is now translatable, and has five languages enabled now -- Afrikaans, Chinese (Simplified), Chinese (Traditional), English, and Japanese. You can suggest translations <a href="http://translate.creativecommons.org/projects/ccsearch/">here</a>.</li>
+<li>A <a href="http://support.creativecommons.org/videos#ccsearch-firefox">screencast on using ccSearch with Firefox</a>, including how to change your default search engine, and change it back.</li>
+<li>Run a default search when the user switches search tabs with no query entered.</li>
+</ul>
+<p>You can browse and checkout the <a href="http://code.creativecommons.org/svnroot/ccsearch/trunk/">code</a> (GPL licensed) from our <a href="http://code.creativecommons.org">source repository</a>.</p>
+<p>Further improvements we're thinking about (patches welcome; see source info above):</p>
+<ul>
+<li>Conditionally show search engine tabs based on language. This requires us to learn of more CC-enabled search sites that allow filtering on license terms by changing the query URL.  Look at (and add to) our <a href="http://wiki.creativecommons.org/CcSearch_integration">wiki page on ccSearch integration</a> for details.</li>
+<li>Conditionally show search engine tabs based on user preference.</li>
+<li>Provide some contextual help when user switches tabs without entering a query rather than running a default search.</li>
+<li>A complete re-thinking of the interface, including the possibility of a unified metasearch instead of search engine tabs.</li>
+</ul>
+<p>Remember, the code is available and GPL'd, so you can run your own version (modulo our <a href="http://creativecommons.org/policies">trademark policy</a>) in addition to helping us improve ours.</p>

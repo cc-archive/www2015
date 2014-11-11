@@ -1,0 +1,409 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HackerTable | Reservations At Elusive Restaurants </title>
+    <meta name="description" content="Reservations At Elusive Restaurants" />
+    <meta name="keywords" content="" />    
+    <link rel="canonical" href="http://www.hackertable.com/" />
+    <link rel="shortcut icon" href="http://b.nnimg.com/favicon.ico" />
+    <link rel="stylesheet" href="http://b.nnimg.com/ed69a380d6270a2a6677e10991cb77aa_0.css" type="text/css" media="all" charset="utf-8">
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="/css/ht_ie7.css" />
+    <![endif]-->
+      
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21997471-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();      
+    </script>
+    
+  </head>
+  
+  <body class="">    
+    
+    <script type="text/javascript" src="http://b.nnimg.com/7979345f312bef3dbf988ea68e6b1500_0.js" charset="utf-8"></script>
+    
+
+    <div class="wrap">
+      
+
+<div class="header centered">
+  <div class="logo">
+    <a href="/" title="Home"><img src="http://b.nnimg.com/8702c7eade3cdd29268f7fb1f0694869_0_356_70.jpg" alt="HackerTable" /></a>
+  </div>
+
+  <div style="padding-bottom: 20px; font-size: 11px">
+    <a href="/sfbay">SF</a> | <a href="/nyc">NYC</a>
+  </div>
+
+  <div id="tagline">
+    <h2>Reservations At Elusive Restaurants</h2>
+    <h3>San Francisco Bay Area</h3>
+  </div>
+</div>
+
+<div class="sizenav">
+  <a href="http://www.hackertable.com/sfbay/reservations-for-2" class="tab left ">Tables For 2</a>
+  <a href="http://www.hackertable.com/sfbay/reservations-for-4" class="tab right selected">Tables For 4</a>
+  <div class="cf"></div>
+</div>
+
+<div class="content">
+  <div class="content-header">
+    <ul class="datenav hlist cf">
+      <li>Tables For 4:</li>
+      <li><a href="http://www.hackertable.com/sfbay/reservations-for-4">Best</a></li>
+      <li><a href="/sfbay/reservations-for-4/2014/11/11/">Today</a></li>
+      <li><a href="/sfbay/reservations-for-4/2014/11/12/">Tomorrow</a></li>
+      <li>By Date:</li>
+      <select name="datenav-select" id="datenav-select" data-bb="{*name*: *datenav*}">
+        <option></option>
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/11/">Tuesday, November 11</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/12/">Wednesday, November 12</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/13/">Thursday, November 13</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/14/">Friday, November 14</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/15/">Saturday, November 15</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/16/">Sunday, November 16</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/17/">Monday, November 17</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/18/">Tuesday, November 18</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/19/">Wednesday, November 19</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/20/">Thursday, November 20</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/21/">Friday, November 21</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/22/">Saturday, November 22</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/23/">Sunday, November 23</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/24/">Monday, November 24</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/25/">Tuesday, November 25</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/26/">Wednesday, November 26</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/27/">Thursday, November 27</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/28/">Friday, November 28</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/29/">Saturday, November 29</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/11/30/">Sunday, November 30</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/1/">Monday, December 01</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/2/">Tuesday, December 02</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/3/">Wednesday, December 03</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/4/">Thursday, December 04</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/5/">Friday, December 05</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/6/">Saturday, December 06</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/7/">Sunday, December 07</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/8/">Monday, December 08</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/9/">Tuesday, December 09</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/10/">Wednesday, December 10</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/11/">Thursday, December 11</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/12/">Friday, December 12</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/13/">Saturday, December 13</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/14/">Sunday, December 14</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/15/">Monday, December 15</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/16/">Tuesday, December 16</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/17/">Wednesday, December 17</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/18/">Thursday, December 18</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/19/">Friday, December 19</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/20/">Saturday, December 20</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/21/">Sunday, December 21</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/22/">Monday, December 22</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/23/">Tuesday, December 23</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/24/">Wednesday, December 24</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/25/">Thursday, December 25</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/26/">Friday, December 26</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/27/">Saturday, December 27</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/28/">Sunday, December 28</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/29/">Monday, December 29</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/30/">Tuesday, December 30</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2014/12/31/">Wednesday, December 31</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/1/">Thursday, January 01</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/2/">Friday, January 02</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/3/">Saturday, January 03</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/4/">Sunday, January 04</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/5/">Monday, January 05</option>        
+              
+          <option  value="/sfbay/reservations-for-4/2015/1/6/">Tuesday, January 06</option>        
+        
+      </select>
+    </ul>    
+  </div>
+  <div class="pl-feed" id="reservations">
+    
+        
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/13/2014%207:00:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/13/2014%207:00:00%20PM">Benu - Thursday, Nov 13 - 7:00 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/13/2014%207:30:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/13/2014%207:30:00%20PM">Benu - Thursday, Nov 13 - 7:30 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%207:00:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%207:00:00%20PM">Benu - Thursday, Nov 20 - 7:00 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/17/2014%208:15:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/17/2014%208:15:00%20PM">Chez Panisse - Monday, Nov 17 - 8:15 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      1517 Shattuck Ave, Berkeley, CA<br />
+      North Berkeley<br />
+      (510) 548-5525
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/19/2014%207:00:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/19/2014%207:00:00%20PM">Benu - Wednesday, Nov 19 - 7:00 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%207:30:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%207:30:00%20PM">Benu - Thursday, Nov 20 - 7:30 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/18/2014%205:30:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/18/2014%205:30:00%20PM">Chez Panisse - Tuesday, Nov 18 - 5:30 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      1517 Shattuck Ave, Berkeley, CA<br />
+      North Berkeley<br />
+      (510) 548-5525
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=97309&amp;m=4&amp;p=4&amp;d=11/11/2014%205:45:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=97309&amp;m=4&amp;p=4&amp;d=11/11/2014%205:45:00%20PM">Rich Table - Tuesday, Nov 11 - 5:45 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      199 Gough St, San Francisco, CA<br />
+      Hayes Valley<br />
+      (415) 355-9805
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/19/2014%205:30:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=29170&amp;m=4&amp;p=4&amp;d=11/19/2014%205:30:00%20PM">Chez Panisse - Wednesday, Nov 19 - 5:30 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      1517 Shattuck Ave, Berkeley, CA<br />
+      North Berkeley<br />
+      (510) 548-5525
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+    
+<div class="pl-item">
+  <a href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%206:00:00%20PM"><div class="pl-cta button green med float-right">Reserve</div></a>
+  <div class="pl-details">
+    <a class="pl-name" href="http://www.opentable.com/opentables.aspx?t=rest&amp;r=45916&amp;m=4&amp;p=4&amp;d=11/20/2014%206:00:00%20PM">Benu - Thursday, Nov 20 - 6:00 PM</a>
+    <div class="pl-size">
+      Table For<br />
+      <div class="pl-num">4</div>
+    </div>
+    <div class="pl-info">
+      22 Hawthorne St, San Francisco, CA<br />
+      SOMA<br />
+      (415) 685-4860
+    </div>
+    <div class="cf"></div> 
+  </div>
+  <div class="cf"></div>
+</div>
+
+
+    
+  </div>
+
+  <div class="content-footer">
+    
+    
+    <a href="#" data-bb="{*region*: *sfbay*, *name*: *moreReservations*, *size*: 4}">More...</a>
+    
+    
+  </div>
+</div>
+
+      
+      
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style centered w-310">
+        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+        <a class="addthis_button_tweet"></a>
+        <a class="addthis_counter addthis_pill_style"></a>
+      </div>
+      <script type="text/javascript">
+        var addthis_config = {"data_track_clickback":true};
+        $.getScript("http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4d7ce5a7152bc40d&domready=1", function(){
+        addthis.init();
+        });
+      </script>
+      <!-- AddThis Button END -->    
+      
+      
+      <div class="follow">Follow <a href="http://twitter.com/hackertable">@HackerTable</a></div>
+      <div class="btm">You're Abe Froman?</div>
+    </div>
+  </body>
+</html>
+  

@@ -1,0 +1,31 @@
+---
+layout: post
+title: ccREL and the Associated Press' "Microformats"
+date: 2009-07-31 14:51:23.000000000 -04:00
+categories:
+- CC Op-Ed
+- Weblog
+tags: []
+status: draft
+type: post
+published: false
+meta:
+  _edit_last: '3'
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p>There's been quite a bit of press lately about the Associated Press' efforts to track reuse of their content through a <a href="http://www.ap.org/pages/about/pressreleases/pr_072309a.html">"news registry"</a>.  The AP states that "the registry will employ a microformat for news developed by AP", going on to explain:</p>
+<blockquote><p>The microformat will essentially encapsulate AP and member content in an informational â€œwrapperâ€ that includes a digital permissions framework that lets publishers specify how their content is to be used online and which also supplies the critical information needed to track and monitor its usage.</p></blockquote>
+<p>The microformat -- more accurately a <a href="http://microformats.org/wiki/poshformats">poshformat (Plain Old Semantic HTML Format)</a> -- <a href="http://www.valueaddednews.org/technical/techspec">hNews</a> introduces <a href="http://www.valueaddednews.org/hrights">hRights</a> which claims to be a "generalization" of ccREL, <a href="http://www.w3.org/Submission/ccREL">Creative Commons' Rights Expression Language</a>.  hRights is presumably the above mentioned "digital permissions framework".  Unfortunately there are some serious issues with the claims the AP makes and the claim that hRights generalizes ccREL.</p>
+<p>As Ed Felten <a href="http://www.freedom-to-tinker.com/blog/felten/aps-drm-announcement-much-ado-about-nothing">points out</a>, the AP's claim that hRights will allow publishers to "track and monitor usage" simply doesn't add up.  Web page annotations cannot track or monitor usage by themselves. While hRights does provide an extremely limited way for publishers to include structured data with their documents, it would be up to software vendors to develop tools which would attempt to interpret and enforce those rights for end users.  Which begs the question: why would users install software that would potentially infringe their rights? If the DRM battles have taught us anything, it is that users actively avoid systems that are defective by design.</p>
+<p>In addition to the AP's tenous grasp on hRight's capabilities, the format itself has serious issues.  The statement that it is a "generalization" of ccREL implies that ccREL needs to be transformed into a different format in order to be extended.  This is not the case. ccREL itself builds upon <a href="http://enwp.org/RDF">RDF</a> and <a href="http://wiki.creativecommons.org/RDFa">RDFa</a> which offer strong support for decentralized extensibility. This means that if ccREL doesn't inherently support a term in your license (whether it is public or private), you can add yours into the mix and still express it within valid RDFa and ccREL.</p>
+<p>When Creative Commons began the work that led to ccREL there were no established or open standards for expressing license information with structured data on the web, so we had to lay some new ground work. But when we published ccREL, we knew we had to make it easier for others to innovate in the future. This is why we included "independence and extensibility" as the <a href="http://www.w3.org/Submission/ccREL/#SECTION00041000000000000000"><strong>first principle</strong></a> for expressing license information in a machine readable format.</p>
+<p>This is also why it is so confusing that hRights' creators assumed they would need to generalize ccREL into something else -- ccREL, and RDF in general, are flexible enough to be extended as is.</p>
+<p>And though we're not quite sure what "generalizing" ccREL means, it is pretty clear that hRights itself can't be extended. Which is why this whole pursuit actually makes structured data less useful for consumers: the use of a poshformat requires software developed for an explicit, pre-defined structure that is effectively hardcoded.</p>
+<p>Consequently, any additional new properties to hRights would render existing software and infrastructure obsolete.</p>
+<p>One more reason to avoid hRights? Your software will be incompatible with the growing body of ccREL-marked works already on the web.</p>
+<p>Publishers should absolutely be encouraged to include structured data with their resources, and we are thrilled by the interest in a space we've attempted to help standardize and foster collaboration in.  Making information about license and attribution available to users can only increase their ability to comply with the license.  But if the AP is actually interested in making the web better for publishers as well as users, we can only hope that they'll be more careful when describing their technology and ultimately avoid re-inventing the wheel.</p>

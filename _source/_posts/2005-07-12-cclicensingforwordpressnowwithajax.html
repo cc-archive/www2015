@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'CC Licensing for WordPress: Now with AJAX'
+date: 2005-07-12 16:26:50.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p><a href="http://yergler.net/projects/wplicense" title="">wpLicense</a> <a href="http://yergler.net/projects/wplicense/download-wplicense" title="">0.5</a> is out.  wpLicense is a project I whipped up a while back to experiment with the Creative Commons <a href="http://api.creativecommons.org">web services</a> and <a href="http://www.adaptivepath.com/publications/essays/archives/000385.php">AJAX</a>.  I also needed CC licensing for <a href="http://wordpress.org">WordPress</a> and wasn't satisfied with the existing solutions.  This is the third release I've made, and the first I actually think should be usable by the world at large.</p>
+<div style="text-align: center;">
+<img src="img/content_license.jpg" alt="" style="border: 1px solid #333;" />
+</div>
+<p>The relatively large increase in version number (up 3/10ths as opposed to my usual 1/10th of a version) reflects the large number of changes as well as the amount of testing that went into this version.</p>
+<p>In the bug-fix category:</p>
+<ul>
+<li>Unbeknownst to me, my web host uses <span class="caps">PHP 5</span> by default, so I happily used <span class="caps">PHP 5</span>-specific features such as SimpleXML without knowing it.  Unfortunately, lots of people still use <span class="caps">PHP 4</span>, so some refactoring was in order.  This release supports <span class="caps">PHP 4 </span>(> 4.3 for sure, possibly older although I won&#8217;t guarantee it).</li>
+<li>I had also used libcurl in the previous version, which while it existed in <span class="caps">PHP 4</span> wasn&#8217;t always turned on.  We&#8217;re using a little more braindead way of calling the webservice now that should work with non-libcurl-enabled installations of <span class="caps">PHP</span>.</li>
+<li>Finally, we fixed a rather annoying bug that caused the generic jurisdiction Attribution licenses to be issued as 2.0, even though 2.5 is the current version.  Feh.</li>
+</ul>
+<p>This release also adds a new configuration option: &#8220;Include license badge in default footer&#8221;.  <img src="img/includelicensebadge.png" alt="The new &quot;Include license badge&quot; option in wpLicense." style="float:right; padding: 5px; border: 1px solid #333;" />If you use the default WordPress theme (or probably 90% of the other themes out there that call wpfooter(); ), checking this saves you the hassle of manually editting your template.  The <a href="http://yergler.net/projects/wplicense/wplicense-function-reference/" title="">template functions</a> are still available for manipulating and displaying the license information in other ways, this just seemed like a logical addition to make life easier.</p>
+<p>All this combined with some (but not lots, mind you) UI-lovin&#8217; means that anyone using an old version (yes, both of you) should go ahead and upgrade.  Go on, <a href="http://yergler.net/projects/wplicense">check it out</a>.</p>

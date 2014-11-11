@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Rights Expression vs. Rights Enforcement: clarifying the Associated Press
+  story'
+date: 2009-08-01 13:15:52.000000000 -04:00
+categories:
+- CC Op-Ed
+- Weblog
+tags:
+- associated press
+- ccREL
+- DRM
+- hNews
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '69'
+author:
+  login: ben
+  email: webmaster+benadida@creativecommons.org
+  display_name: Ben Adida
+  first_name: Ben
+  last_name: Adida
+---
+<p>The Associated Press wants to track reuse of their content through a "<a href="http://www.ap.org/pages/about/pressreleases/pr_072309a.html">news registry</a>." This registry "will employ a microformat for news developed by AP":</p>
+<blockquote><p>The microformat will essentially encapsulate AP and member content in an informational â€œwrapperâ€ that includes a digital permissions framework that lets publishers specify how their content is to be used online and which also supplies the critical information needed to track and monitor its usage.</p></blockquote>
+<p>While Creative Commons is very sympathetic to the difficulty of explaining technical concepts in a short press release, we're worried that the AP's explanation, and in particular their reference to the <a href="http://www.w3.org/Submission/ccREL">Creative Commons' Rights Expression Language</a> (ccREL), might well be confusing.</p>
+<p>The reference to Creative Commons appears in the AP's microformat, <a href="http://www.valueaddednews.org/technical/techspec">hNews</a>, which introduces <a href="http://www.valueaddednews.org/hrights">hRights</a>, a supposed "generalization" of ccREL. hRights is presumably the "digital permissions framework" that the AP <a title="AP News Registry Diagram" href="http://www.ap.org/media/images/APnewsregistry.jpg">diagrams</a> as a box/wrapper around news content in order to "track and monitor usage." Unfortunately, as Ed Felten <a href="http://www.freedom-to-tinker.com/blog/felten/aps-drm-announcement-much-ado-about-nothing">points out</a>, this claim doesn't add up. Microformats and other web-based structured data, including ccREL, cannot track, monitor, or generally enforce anything. They're labels, i.e. Post-It notes attached to a document, not locked boxes blocking access to the content.</p>
+<p>When Creative Commons launched in 2002, we were often asked "is Creative Commons a form of DRM?" Our answer: no, we help publishers express their rights, but we don't dabble in enforcement, because enforcement technologies are unable to respect important, complex, and often subjective concepts like fair use. Thus, ccREL is about expression and notification of rights, not about enforcement.</p>
+<p>And when you think about it, there's really no other realistic way. If the AP actually wants a "beacon" that reports usage information back to the mothership, then every endpoint must be programmed to perform this beacon functionality. Before it delivers content, every server must check that the client will promise to become a beacon. Which means the AP wantsÂ  an architecture where every cell phone, computer, or other networked device is locked down centrally, able to run only software that is verified to comply with this policy. That's another reason why we don't dabble in enforcement: the costs of Digital Rights <em>Enforcement</em> (or its politically correct equivalent, Digital Rights <em>Management</em>) to publishers, users, to our culture and to our ability to innovate are astronomically high.</p>
+<p>Then there's the issue of "RSS syndication" compatibility. We simply don't see how the AP's proposed system would allow both widespread beacon enforcement and compatibility with existing formats like RSS. Compatibility means that current RSS tools remain usable. Obviously, these tools do not currently perform the AP's rights enforcement, so how could they magically be made to start phoning home now?</p>
+<p>That said, there is an interesting nugget in the AP's proposal, one which we encourage them to pursue: tagging content with rights, origin, and means of attribution is a good proposal. When Creative Commons began the work that led to ccREL, there were no established or open standards for expressing this type of structured information on the web, so we had to lay down some new infrastructure. When we published ccREL, we made it easy for others to innovate on top of ccREL: we included "independence and extensibility" as the <a href="http://www.w3.org/Submission/ccREL/#SECTION00041000000000000000"><strong>first principle</strong></a> for expressing license information in a machine readable format. We based ccREL on <a href="http://enwp.org/RDF">RDF</a> and <a href="http://wiki.creativecommons.org/RDFa">RDFa</a> to enable this standards-based extensibility.</p>
+<p>The AP could, rather than reinvent a subset of ccREL using an incompatible and news-specific syntax, simply use ccREL and add their own news-specific fields. By doing this, they would immediately plug into the growing set of tools that parse and interpret rights expressed via ccREL. We would be happy to help, but we built ccREL in such a way that we don't need to be involved if the AP would prefer to go it alone. And, of course, the AP can use ccREL with copyright licenses more restrictive than those we offer, if they prefer.</p>

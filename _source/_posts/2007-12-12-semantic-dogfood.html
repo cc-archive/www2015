@@ -1,0 +1,29 @@
+---
+layout: post
+title: Semantic Dogfood
+date: 2007-12-12 14:55:15.000000000 -05:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p>Since the beginning we've provided our licenses for three separate, distinct audiences: humans, lawyers and machines.  The machine audience has been served by metadata versions of the licenses.  This metadata is encoded with the HTML you get from the <a href="http://creativecommons.org/license">license chooser</a>, as well as for each individual license.  For example, you can find the metadata for the <a href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 Unported</a> license by <a href="http://creativecommons.org/licenses/by/3.0/rdf">appending /rdf</a> to the URL.</p>
+<p>While we've always provided this machine readable version of the licenses, we're finally taking steps to begin <a href="http://en.wikipedia.org/wiki/Eating_one%27s_own_dog_food">eating our own semantic web dogfood</a>.  We're doing several things to accomplish this.  First, the <a href="http://en.wikipedia.org/wiki/Resource_Description_Framework" title="Resource Description Framework">RDF/XML</a> we serve for each license is now considerably more informative.  It includes:</p>
+<ul>
+<li>an explicit pointer to the license legalcode</li>
+<li>information on when the license was deprecated (for example, the <a href="http://creativecommons.org/devnations/2.0/rdf">Developing Nations 2.0</a> metadata)</li>
+<li>information about what license replaces this one (for example, the <a href="http://creativecommons.org/by/1.0/rdf">Attribution 1.0 Generic</a> metadata)</li>
+<li>an explicit assertion about the license's jurisidiction; this was previously encoded only by convention</li>
+</ul>
+<p>In addition to the RDF/XML, we're starting to encode license information as <a href="http://en.wikipedia.org/wiki/RDFa">RDFa</a> on the license deeds.  Try using the <a href="http://www.w3.org/2006/07/SWD/RDFa/impl/js/">GetN3 bookmarklet</a> on the <a href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 Unported</a> deed for an example.</p>
+<p>We're also starting to use this metadata to power our own applications.  The OpenOffice.org Addin ships with a copy of the RDF and uses <a href="http://en.wikipedia.org/wiki/SPARQL" title="SPARQL Protocol and RDF Query Language">SPARQL</a> to determine the license you've selected.  As we continue to build out the tools around CC licenses we'll be moving in a similar direction, looking for ways we can leverage this resource we already have.</p>
+<p>You can build on it, too; everything we do goes into source control.  You can find the RDF files in the <a href="http://cctools.svn.sourceforge.net/viewvc/cctools/license.rdf/trunk/">license.rdf</a> module.  A description of the <a href="http://creativecommons.org/ns">namespace</a> is also available.</p>

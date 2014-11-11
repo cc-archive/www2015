@@ -1,0 +1,23 @@
+---
+layout: post
+title: Google Summer of Code Wrap-up
+date: 2006-09-20 07:22:53.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p>This summer Creative Commons had the privilege of participating in the <a href="http://code.google.com/soc/">Google Summer of Code</a>.  The Summer of Code is an opportunity for students to gain experience working on open source projects with financial support from Google.  Participating projects provide mentoring to the students, and benefit from their efforts through the summer.</p>
+<p>Creative Commons had <a href="http://wiki.creativecommons.org/Summer_of_Code_2006_Projects">three projects</a> successfully completed  this summer.  <a href="http://www.openradix.org/">Luke Hoersten</a> worked on <a href="http://wiki.creativecommons.org/CcBanshee">CcBanshee</a>, an extension which adds license support to the popular <a href="http://banshee-project.org/Main_Page">Banshee</a> music player.  While Luke's initial project proposal was to write a simple plugin to handle this functionality, he found that he needed to make architectural changes once he began coding.  Luke worked closely with the Banshee community to understand and extend the plugin API, resulting in the addition of a priority scheduler for plugins like CcBanshee to use.  Luke also dug in and implemented part of his plugin as a stand-alone C# library which can be used for generic license validation, <a href="http://wiki.creativecommons.org/Cc-sharp">cc-sharp</a>.  Hopefully we'll see other Mono applications make use of this functionality, building on the great work Luke did this summer.</p>
+<p><a href="http://brunodilly.livejournal.com/">Bruno Dilly</a> proposed and completed a project which will help bring two of Creative Commons' software offerings together in a natural evolution.  Bruno worked with both ccHost and ccPublisher in order to allow users of ccPublisher to upload works to ccHost installations, including <a href="http://ccmixter.org">ccMixter</a>.  Bruno's work with two code bases in two languages was impressive, and we think that bridging these two projects adds value to both.  Bruno's ccPublisher work is currently in a branch, and we'll be shipping it along with, or shortly after ccPublisher 2.4 later this fall.</p>
+<p>Rob Litzke also worked on a ccPublisher-related project this summer, developing a plugin to support uploading of images to <a href="http://flickr.com">Flickr</a>.  Rob's work helped point out some deficencies in the current plugin API, which we're working to address in ccPublisher 2.4 so we can ship his code.  Rob also took on the challenge of developing a specification and code for embedding license claims in JPEG files via EXIF metadata.  While this part of the project wasn't as successful as the Flickr plugin, it did lead to a broader discussion of the role of embedded metadata, and the consideration of <a href="http://wiki.creativecommons.org/XMP">XMP</a> as a preferred, multi-file-format way of embedding license metadata in media.</p>
+<p>Thanks to all our students who spent their summer working to improve Creative Commons' technology, and thanks to Google for their continued support of open source software.  If you're interested in working on a CC technology project, we have plenty of <a href="http://wiki.creativecommons.org/Developer_Challenges">ideas</a>; we'd love to <a href="http://wiki.creativecommons.org/Mailing_Lists">hear from you</a>.</p>

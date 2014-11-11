@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'liblicense 0.5: first stable version of C library supporting CC metadata'
+date: 2008-01-15 15:54:34.000000000 -05:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: paulproteus
+  email: webmaster+paulproteus@creativecommons.org
+  display_name: Asheesh Laroia
+  first_name: Asheesh
+  last_name: Laroia
+---
+<p>With the help of Hubert Figuiere, Nathan Yergler, Peter Miller, Scott Shawcroft, and Jason Kivlighn, I'm happy to finally announce a new version of <a href="http://wiki.creativecommons.org/Liblicense">liblicense</a>. Summary: Now this is really worth using.</p>
+<p>For those just joining us now, liblicense is a library to make it easy to add CC metadata support to desktop and server side software you write. The biggest reason to choose liblicense rather than handling CC metadata yourself is that we (huge thanks to Jason and Hubert) have written handlers for <em>many</em> file formats. We use Hubert's <a href="http://libopenraw.freedesktop.org/wiki/Exempi">Exempi library</a> that is derived from Adobe's <a href="http://www.adobe.com/devnet/xmp/">Free/Open Source XMP library</a>.</p>
+<p>The two major driving factors on this release were making it crash less and providing a stable interface (API and ABI) for others to build upon. Earlier versions of liblicense would crash on invalid files. Also, crucially, this release has metadata inside the library, called "shared object versioning," indicating what features the library supports.</p>
+<p>As always, you can reuse this under the terms of the GNU LGPL.  It's interoperable with our metadata panel <a href="http://creativecommons.org/weblog/entry/7648">for Adobe applications</a>, supports embedding into files ranging from JPEG to MP3 to Ogg Vorbis, and is available <a href="http://sourceforge.net/project/showfiles.php?group_id=80503&amp;package_id=238700&amp;release_id=568889">from SourceForge.net</a>. It is written in C and comes with bindings for Python and Ruby. Finally, thanks to <a href="http://endeavour.zapto.org/vs">Venkatesh Srinivas</a> for his tireless help.</p>

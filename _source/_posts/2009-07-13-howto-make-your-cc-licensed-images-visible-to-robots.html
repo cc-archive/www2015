@@ -1,0 +1,34 @@
+---
+layout: post
+title: HOWTO Make Your CC-licensed Images Visible to Robots
+date: 2009-07-13 10:28:11.000000000 -04:00
+categories:
+- Weblog
+tags:
+- ccREL
+- google image search
+- howto
+- RDFa
+- semantic web
+- Thingiverse
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '69'
+author:
+  login: fbenenson
+  email: fred@creativecommons.org
+  display_name: Fred Benenson
+  first_name: Fred
+  last_name: Benenson
+---
+<div class="alignleft"><a href="http://www.flickr.com/photos/genewolf/147722422/sizes/s/"><img class="size-full wp-image-15779" title="Robot" src="img/147722422_4b36ce3c06_m.jpg" alt="Robot" width="160" height="240" /></a><small />
+<div xmlns:cc="http://creativecommons.org/ns#" about="http://www.flickr.com/photos/genewolf/147722422/">Robot by <a rel="cc:attributionURL" href="http://www.flickr.com/photos/genewolf/">genewolf</a> <br /> <a rel="license" href="http://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND 2.0</a></div>
+</div>
+<p>After last week's <a href="http://creativecommons.org/weblog/entry/15691">exciting announcement that Google Image search</a> is now capable of filtering results by usage rights, we realized there is a lot of interest in how creators can signal their work as being CC-licensed to both humans and <a href="http://en.wikipedia.org/wiki/Web_crawler">robots</a>.</p>
+<p>Fortunately, CC has a solution for this that is not only a standard, <a href="http://creativecommons.org/weblog/entry/10095">but recommended by the</a> <a href="http://www.w3.org/">World Wide Web Consortium</a>.</p>
+<p>Its called the <a href="http://wiki.creativecommons.org/CcREL">Creative Commons Rights Expression Language</a> and is part of <a href="http://en.wikipedia.org/wiki/Semantic_Web">the semantic web</a>. Without getting too technical, ccREL uses a technology called <a href="http://en.wikipedia.org/wiki/RDFa">RDFa</a> to express licensing information to machines so that they can deduce the same facts about a work (such as its title, author, and most importantly, its license) that humans can.  If you're interested in the future of the web and structured data, you'll want to check out our wiki pages on <a href="http://wiki.creativecommons.org/RDFa">RDFa</a>, <a href="http://wiki.creativecommons.org/RDFa">ccREL</a>, and <a href="http://www.w3.org/Submission/ccREL/">our white paper submitted</a> to the W3C. Google has a <a href="http://google.com/support/webmasters/bin/answer.py?answer=146898">page explaining RDFa</a> and Yahoo has a <a href="http://developer.yahoo.net/blog/archives/2008/09/searchmonkey_support_for_rdfa_enabled.html"> page explaining how RDFa is used by Yahoo Search</a>.</p>
+<p><strong>The easiest way to signal to both humans and robots that your content is CC licensed is to head over to our <a href="http://creativecommons.org/license/">license chooser and choose a license</a> to put on your own site.</strong></p>
+<p>Our license chooser automatically generates the proper ccREL code, so its easy! Don't forget to fill out the "Additional Information" section. You'll then get a snippet of XHTML embed that will contain ccREL. Place this near your work (preferably on its same page of the work which also happens to be unique) and you're all set. If you're running an entire content community, you can also dynamically generate this markup based on the particular user, title of the work and so on. Check out <a href="http://creativecommons.org/?p=10625&amp;preview=true">Thingiverse</a> for a excellent example of this functionality.</p>
+<p>Are you already using ccREL or RDFa on your website or platform? <a href="http://creativecommons.org/contact">Let us know</a> or add it to our <a href="http://wiki.creativecommons.org/CcREL#Examples_of_ccREL_in_the_Wild">Wiki page</a>!</p>

@@ -1,0 +1,42 @@
+---
+layout: post
+title: OpenID and the CC Network
+date: 2008-12-05 10:19:24.000000000 -05:00
+categories:
+- Weblog
+tags:
+- CC Network
+- openID
+- security
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '69'
+author:
+  login: ben
+  email: webmaster+benadida@creativecommons.org
+  display_name: Ben Adida
+  first_name: Ben
+  last_name: Adida
+---
+<p>One of the key benefits of becoming a <a href="http://creativecommons.net">Creative Commons Network</a> member is the <a href="https://creativecommons.net/h/openid/">OpenID</a> login feature. In this blog post, we'll cover the basics of OpenID and why having a Creative Commons Network OpenID is particularly interesting to users who care about their privacy. We'll also point out the risks of using OpenID and how you can mitigate them.</p>
+<p><strong>OpenID and Password Insanity</strong></p>
+<p>By now, even casual web users are encountering password fatigue. Though it isn't ideal from a security standpoint, it becomes necessary to reuse passwords across sites when possible. One increasingly popular alternative to this password insanity is OpenID. With OpenID, a user creates an OpenID account at one of many available OpenID providers, e.g. http://creativecommons.net/. The user is then assigned an OpenID URL, e.g. http://creativecommons.net/ben. Then, when logging into a web site that supports OpenID, the user simply submits his OpenID URL, is automatically redirected to his OpenID provider where he logs in with his one OpenID account, and is finally redirected back to the original site, automatically logged in. One OpenID account lets you log in to any web site that supports OpenID logins.</p>
+<p><strong>OpenID Risks</strong></p>
+<p>There is always a risk to centralizing significant security information in one place: the place of centralization becomes an attractive target for attackers. Beyond that, there are some risks specific to OpenID given the current state of the Web:</p>
+<ol>
+<li>Users are required to place significant trust in their OpenID provider. An OpenID provider can trivially impersonate any of its users to any web site it chooses. In other words, it's important to choose an OpenID provider you trust.</li>
+<li>When OpenID URLs are not protected by SSL, OpenID is vulnerable to various kinds of DNS attacks, which, as we know from recent developments in DNS security, are significantly more realistic than many realize.</li>
+<li>The OpenID protocol expects the relying party (i.e. the site to which the user is logging in) to redirect the user to her OpenID provider, when the relying party may not always be trustworthy. As a result, a number of security experts believe that OpenID increases the risk (and improves the efficacy) of phishing attacks against OpenID users. This is particularly relevant when the OpenID provider provides password-based authentication, which is the case for most OpenID providers. This can be mitigated by using a browser extension such as <a href="https://addons.mozilla.org/en-US/firefox/addon/5133">Verisign's OpenID Seatbelt</a> which takes you directly to your provider and providers a visual indication that the page you're on is indeed the page where your password can be safely entered.</li>
+<li>An OpenID provider is involved in every act of authentication that its users perform. This has significant privacy implications, as the OpenID provider can easily determine its users' Internet usage patterns. This private data might be leaked if a security breach occurs, or if the OpenID provider is subpoenaed for information.</li>
+</ol>
+<p><strong>Mitigating OpenID Risks</strong></p>
+<p>We believe that Creative Commons is well positioned to provide trustworthy OpenID functionality. That said, we only recommend that you use Creative Commons as an OpenID provider if you do indeed trust Creative Commons.</p>
+<p>To address the remaining risks, Creative Commons has made the following design decisions in its implementation of OpenID:</p>
+<ul>
+<li>Creative Commons profile URLs are only served over SSL -- any request over plain HTTP is redirected over SSL.   We recommend looking at your address bar to make sure you're connected over SSL when logging into web sites with your profile.</li>
+<li>Creative Commons strongly recommends that you verify the URL that you are visiting before you enter your Creative Commons Network password. We have also taken care to ensure that you need not enter your password repetitively when visiting sites you already trust. Thus, by reducing the number of situations where users are expected to enter a password, we hope that users will be more vigilant on those few occasions where a password is requested.</li>
+<li>Creative Commons commits to keeping only minimal and recent logging information about its users' authentication activities, and to never share this logging information (except in cases where we are legally required to do so.) Thus, if a breach occurs, attackers will have only minimal data about our users' Internet habits.</li>
+</ul>
+<p>As always, we welcome all comments, and we hope you'll find Creative Commons's support of OpenID a useful service!</p>

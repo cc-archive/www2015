@@ -1,0 +1,21 @@
+---
+layout: post
+title: Roll Your Own License Choooser
+date: 2005-08-02 08:14:16.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p>In the past if you wanted to integrate Creative Commons license selection with your web application, there was one solution: <a href="http://creativecommons.org/technology/web-integration">the partner interface</a>.  Today there's a second way: the Ajax Chooser.  The Ajax Chooser is a PHP+Javascript library derived from <a href="http://yergler.net/projects/wplicense">wpLicense</a> which encapsulates a license chooser.</p>
+<p>Ajax Chooser uses the <a href="http://api.creativecommons.org">CC web services</a> to load an up-to-date license chooser, complete with the most recent jurisdictions and license versions.  The package includes everything you need to include a license chooser with only two PHP function calls in your web page.  And because you host the PHP files on your web server, you're free to apply CSS and styling information as appropriate for your application.  This means tighter visual integration with your application, with the continued benefits of the partner interface.</p>
+<p>You can download the 0.5.0 release of Ajax Chooser <a href="http://drop.creativecommons.org/software/ajax_chooser/ajax_chooser-0.5.0.tar.gz">here</a>.  We're still working on ironing out all the details, but this release has been tested with Firefox and Safari.  You can find documentation in the <a href="http://wiki.creativecommons.org/wiki/Developer/AjaxChooser">Creative Commons Developer Wiki</a>.  If you have problems integrating the chooser, please let us know.</p>

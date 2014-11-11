@@ -1,0 +1,116 @@
+---
+layout: post
+title: Plaintext versions of Creative Commons licenses and CC0
+date: 2011-04-15 06:17:07.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '2'
+author:
+  login: cwebber
+  email: webmaster+cwebber@creativecommons.org
+  display_name: Chris Webber
+  first_name: Chris
+  last_name: Webber
+---
+<p>Last Friday, we made <a href="http://code.creativecommons.org/issues/issue798">plaintext versions of our core 3.0 (unported) licenses and CC0 available</a>.  This is something that some people have wanted for a long time.  For example, <a href="http://lists.ibiblio.org/pipermail/cc-licenses/2005-March/001877.html">Evan Prodromou made a draft of plaintext licenses a few years ago</a>, but these never became official.</p>
+<p>But now we do have official plaintext versions.  Here's a list:</p>
+<ul>
+<li><a href="http://creativecommons.org/licenses/by/3.0/legalcode.txt">CC BY 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode.txt">CC BY-SA 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/licenses/by-nd/3.0/legalcode.txt">CC BY-ND 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode.txt">CC BY-NC 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt">CC BY-NC-SA 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode.txt">CC BY-NC-ND 3.0 legalcode.txt</a></li>
+<li><a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode.txt">CC0 1.0 legalcode.txt</a></li>
+</ul>
+<p>For most works, plaintext legalcode doesn't matter as linking directly to the deeds (say with the copy-paste output you get with the <a href="http://creativecommons.org/choose/">license chooser</a>) is good enough, even ideal.  And it's important to note that the XHTML licenses are still the canonical versions.  But for some projects plaintext legalcode may be a very good thing.  For example, it is traditional practice in free and open source software projects to bundle your licenses along with your project.  More and more FOSS projects are using Creative Commons licenses or CC0 for their <a href="http://wiki.creativecommons.org/Games_using_CC_licensed_assets">non-software content</a>, so having plaintext legalcode will probably be very useful in these instances.  Additionally, some other projects which release their content in a way that is largely offline may benefit from plaintext legalcode.</p>
+<p>If you need to provide licensing information about your work in a similarly plaintext way, you should follow this pattern:</p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;.
+</pre>
+<p>&hellip; replacing &lt;WORK'S NAME&gt; and &lt;AUTHOR'S NAME&gt; appropriately.  (The first line in this example is optional.)</p>
+<p>This push for an official plaintext legalcode release was spurred by the recent work with the <a href="http://fsf.org">Free Software Foundation</a> on establishing the <a href="http://creativecommons.org/weblog/entry/27081">compatibility of CC0 with the GPL</a>.  It is important to note here that while CC0 is <a href="http://wiki.creativecommons.org/CC0_FAQ#May_I_apply_CC0_to_computer_software.3F_If_so.2C_is_there_a_recommended_implementation.3F">acceptable for software</a>, Creative Commons licenses are <a href="http://wiki.creativecommons.org/FAQ#Can_I_use_a_Creative_Commons_license_for_software.3F">not acceptable for software</a>.  The usage of plaintext legalcode as described in this post is intended for non-software content.</p>
+<h2>Copy / Paste Examples</h2>
+<p>For reference, here are some easily copy/pasteable examples of how you would annotate your works for all Creative Commons licenses, as well as CC0 (which is listed last).</p>
+<p><b>CC BY 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by/3.0/&gt;.
+</pre>
+<p><b>CC BY-SA 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;.
+</pre>
+<p><b>CC BY-ND 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-NoDerivs 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-nd/3.0/&gt;.
+</pre>
+<p><b>CC BY-NC 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-NonCommercial 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-nc/3.0/&gt;.
+</pre>
+<p><b>CC BY-NC-SA 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-nc-sa/3.0/&gt;.
+</pre>
+<p><b>CC BY-NC-ND 3.0:</b></p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; (c) by &lt;AUTHOR'S NAME&gt;
+
+&lt;WORK'S NAME&gt; is licensed under a
+Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see &lt;http://creativecommons.org/licenses/by-nc-nd/3.0/&gt;.
+</pre>
+<p><b>CC0 1.0:</b> (note, <a href="http://wiki.creativecommons.org/CC0_FAQ#May_I_apply_CC0_to_computer_software.3F_If_so.2C_is_there_a_recommended_implementation.3F">see here if using CC0 for software</a>)</p>
+<pre style="border: 1pt solid #AEBDCC;background-color: #F3F5F7;padding: 5pt;font-family: courier, monospace;font-size: 90%;overflow:auto">
+&lt;WORK'S NAME&gt; by &lt;AUTHOR'S NAME&gt;
+
+To the extent possible under law, the person who associated CC0 with
+&lt;WORK'S NAME&gt; has waived all copyright and related or neighboring rights
+to &lt;WORK'S NAME&gt;.
+
+You should have received a copy of the CC0 legalcode along with this
+work.  If not, see &lt;http://creativecommons.org/publicdomain/zero/1.0/&gt;.
+</pre>

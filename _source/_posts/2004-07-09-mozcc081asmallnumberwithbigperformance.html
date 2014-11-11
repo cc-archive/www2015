@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'mozCC 0.8.1: a small number with big performance'
+date: 2004-07-09 13:01:11.000000000 -04:00
+categories:
+- Weblog
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: nathan
+  email: webmaster+nathan@creativecommons.org
+  display_name: Nathan Yergler
+  first_name: Nathan
+  last_name: Yergler
+---
+<p>mozCC 0.8.0 was an attempt to fix performance problems with many sites, and it succeeded.  For the most part.  Shortly after it's release, users brought to my attention the fact that when browsing <a href="http://wikipedia.org">Wikipedia</a> with mozCC, the browser ground to a halt while mozCC retrieved the CC license information from the web server.  This problem actually effected any page using <code>&lt;link ...&gt;</code>'d metadata.  Wikipedia was the most obvious case due to the size of their metadata file (it's comparatively large).</p>
+<p>mozCC 0.8.1, released this morning, fixes these problems.  The browser remains responsive while the metadata is downloaded in the background.</p>
+<p><a href="http://mozilla.org/products/firefox">Firefox</a> users can upgrade by simply opening the Extension manager; everyone else can find installation information <a href="http://yergler.net/projects/mozcc/install">here</a>.  The full release announcement is available on the <a href="http://yergler.net/projects/mozcc/news">mozCC News page</a>.</p>

@@ -1,0 +1,31 @@
+---
+layout: post
+title: Semantic Media Wiki Quick Reference Guide
+date: 2008-08-25 09:42:48.000000000 -04:00
+categories:
+- Software
+- Weblog
+tags:
+- metadata
+- RDFa
+- Semantic Media Wiki
+- Wikipedia
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '69'
+author:
+  login: fbenenson
+  email: fred@creativecommons.org
+  display_name: Fred Benenson
+  first_name: Fred
+  last_name: Benenson
+---
+<p><a href="http://creativecommons.org/wp-content/uploads/2008/08/picture-5.png"><img src="img/picture-5.png" alt="" title="Semantic Media Wiki Quick Reference" width="500" height="87" class="aligncenter size-full wp-image-8927" /></a></p>
+<p>Creative Commons uses <a href="http://www.semantic-mediawiki.org">Semantic Media Wiki</a> for both our <a href="http://wiki.creativecommons.org">external wiki</a> and our internal <a href="http://wiki.creativecommons.org/CcTeamspace">task and project management system</a>. </p>
+<p>As opposed to a normal wiki where text is "flat", the text and data inside aÂ SMW can be structured in sophisticated ways that allow for meaningful querying of knowledge statements of the corpus. To give a more concrete example, a <a href="http://en.wikipedia.org/wiki/List_of_United_States_Vice_Presidents_by_longevity">list of United States Vice Presidents by longevity</a> must be maintained by humans on Wikipedia, whereas a similar list can be automatically generated via a query inside a semantic media wiki (supposing there are pages about the presidents in the first place). Or in the case of Creative Commons' wiki, we use SMW to store information about <a href="http://wiki.creativecommons.org/Casestudies">case studies</a>, which can then be recalled in interesting ways, such as <a href="http://wiki.creativecommons.org/index.php?title=Special:Ask&offset=0&limit=500&q=[[Category%3ACasestudy]][[Country%3A%3AAustralia]][[Format%3A%3AText]]&p=format%3Dbroadtable&po=%3FAuthor%0A%3FFormat%0A%3FCountry%0A&sort=Country&order=ASC">listing all Creative Commons licensed projects that use text and are based in Australia</a>. You can see the exact query used to generate that list by clicking "edit query" on the page. Try changing the country to something else to get a feel for how the search works.</p>
+<p>One final aspect about SMW that makes it relevant to CC's work is that it automatically creates <a href="http://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a> (the language of the semantic web) statements about pages. This gives any semantic media wiki a machine-readable output that allows for easy parsing by machines. </p>
+<p><a href="http://wiki.creativecommons.org/Rdfa">Sound familliar</a>? That's because Creative Commons encourages the use of RDFa to express license information about objects in webpages. RDFa is meant to be the "human readable" version of RDF which also contains machine readable statements. Think of it as extra-fancy XHTML with semantic sparkle dust. </p>
+<p>Despite some real leaps in user-interface design for SMWs, editing and querying them remains a little confusing.  <a href="http://yaronkoren.com/">Yaron Koren</a>, the developer behind the essential <a href="http://www.mediawiki.org/wiki/Extension:Semantic_Forms">Semantic Forms extension</a>, has created a "quick reference guide" that he's released under Creative Commons' Attribution license. </p>
+<p>Yaron has made the guide available in three formats so that it is easy to <a href="http://semantic-mediawiki.org/wiki/Image:SMW_quick_reference.pdf">print</a> (pdf), <a href="http://postable.net/smwqr/smw-quick-reference.svg">remix</a> (svg), and <a href="http://semantic-mediawiki.org/wiki/Image:SMW_quick_reference.png">read</a> (png).</p>
