@@ -1,23 +1,74 @@
 ---
-layout: default
+layout: homepage
 ---
 
-<div class="home">
+<div class="container">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="row">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="col-md-4">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <h3>Foo</h3>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+    <div class="col-md-4">
+
+      <h3>Foo</h3>
+
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+
+    <div class="col-md-4">
+
+      <h3>Foo</h3>
+
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+  </div>
+
+ 
+ <div class="row">
+
+    <div class="col-md-4">
+
+      <h3>Foo</h3>
+
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+    <div class="col-md-4">
+
+      <h3>Foo</h3>
+
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+
+    <div class="col-md-4">
+
+      <h3>Foo</h3>
+
+      <p>Creative Commons helps you share your knowledge and
+      creativity with the world.</p>
+
+    </div>
+
+  </div>
+
+ 
 
 </div>

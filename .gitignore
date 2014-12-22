@@ -1,4 +1,4 @@
-_build
+_build/*
 _site
 .sass-cache
 wordpress.xml
