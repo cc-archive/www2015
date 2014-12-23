@@ -1,0 +1,9 @@
+---
+layout: style
+---
+
+body {
+
+background: yellow;
+
+}

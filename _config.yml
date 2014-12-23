@@ -1,4 +1,44 @@
 source:      _source
 destination: _build
+relative_permalinks: false
+include: ['_pages']
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  
+# Footer settings
+footer:
+  copyright: Creative Commons
+  location: Contact Us
+  social: Around the Web
+  legal: Legal
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/creativecommons
+  - title: facebook
+    url: http://facebook.com/creativecommons
+  - title: github
+    url: http://github.com/creativecommons
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: PO Box 1866
+  - line: Mountain View, CA 94042
+  
+# Legal stuff
+legalese:
+  - title: Policies
+    url: /policies
+  - title: Privacy
+    url: /privacy
+  - title: Terms
+    url: /terms
+
+# Build settings
 markdown: kramdown
-relative_permalinks: true
+permalink: pretty
