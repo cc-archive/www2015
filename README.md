@@ -2,7 +2,7 @@
 
 2015 Creative Commons website archive
 
-Note significant amount of content in [`_source/_posts/`](_source/_posts).
+Content in [`_source/_posts/`](_source/_posts) has been imported into the current creativecommons.org blog (as of 2019-04-04).
 
 For current Creative Commons website, see
 [creativecommons/new-creativecommons.org][new]
